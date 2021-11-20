@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  font-family: Karla;
+  font-size: 16px;
+}
+
+body {
+  background-color: #E6EFF6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30 px;
+  margin-bottom: 30 px;
+  margin-left: 10 px;
+  margin-right: 10 px;
+  width: 100%;
+  align-self: center;
+}
+
+.box-top {
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ffffff;
+}
+.box-top h2 {
+  color: #2AB2AF;
+}
+.box-top h4 {
+  color: #BFDF32;
+}
+.box-top p {
+  color: #98A6BD;
+  line-height: 25px;
+  font-size: 0.8rem;
+}
+
+.box-middle {
+  padding: 20px;
+  background-color: #2AB2AF;
+  color: #ffffff;
+  flex: 1;
+}
+.box-middle p {
+  font-size: 0.8rem;
+}
+
+.precio {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.mes {
+  margin-left: 15px;
+  font-size: smaller;
+  align-self: center;
+  opacity: 0.7;
+}
+
+.box-bottom {
+  padding: 20px;
+  background-color: #2AB2AF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #F4FFFF;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.box-bottom ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.7;
+}
+.box-bottom li {
+  font-size: 0.7rem;
+  padding: 2px;
+  color: #F4FFFF;
+}
+
+.box-price {
+  display: flex;
+  justify-content: stretch;
+  justify-items: center;
+}
+
+.boton {
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #BFDF32;
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1440px) {
+  .contenedor {
+    flex-direction: row;
+  }
+
+  .contenedor-principal {
+    margin: 200px;
+    width: 50%;
+  }
+
+  .box-bottom, .box-top, .box-middle {
+    padding: 30px;
+  }
+
+  .box-bottom {
+    border-bottom-left-radius: 0px;
+  }
+  .box-bottom li {
+    font-size: 0.9rem;
+  }
+
+  .box-top p {
+    font-size: 1rem;
+  }
+
+  .box-middle {
+    border-bottom-left-radius: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

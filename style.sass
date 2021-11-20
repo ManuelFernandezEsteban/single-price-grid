@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap')
+$colorBoton:#BFDF32
+$colorBase:#E6EFF6
+$colorBlanco: #ffffff 
+$colorBlancoRoto:#F4FFFF
+$colorVerde: #2AB2AF
+$colorGris: #98A6BD
+*
+    font-family: Karla
+    font-size: 16px
+    
+body    
+    background-color: $colorBase
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+.contenedor-principal
+    display: flex
+    flex-direction: column
+    margin-top: 30 px
+    margin-bottom: 30 px
+    margin-left: 10 px
+    margin-right: 10 px 
+    width: 100%
+    align-self: center
+
+.box-top
+    padding: 20px
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+    background-color: $colorBlanco
+    h2
+        color: $colorVerde
+    h4
+        color: $colorBoton
+    p
+        color: $colorGris
+        line-height: 25px
+        font-size: 0.8rem
+.box-middle
+    padding: 20px
+    background-color: $colorVerde
+    color: $colorBlanco
+    flex:1
+    p
+        font-size: 0.8rem
+
+.precio
+    font-weight: bolder
+    font-size: xx-large
+
+.mes
+    margin-left: 15px
+    font-size: smaller
+    align-self: center
+    opacity: 0.7
+
+.box-bottom
+    padding: 20px
+    background-color: $colorVerde
+    border-bottom-left-radius: 5px
+    border-bottom-right-radius: 5px
+    color: $colorBlancoRoto
+    flex: 1
+    display: flex
+    flex-direction: column
+    ul
+        list-style-type: none
+        margin: 0px
+        padding: 0px
+        opacity: 0.7
+    li
+        font-size: 0.7rem
+        padding: 2px
+        color: $colorBlancoRoto
+.box-price
+    display: flex
+    justify-content: stretch
+    justify-items: center
+
+.boton
+    padding: 10px 10px 10px 10px
+    border-radius: 3px
+    text-decoration: none
+    cursor: pointer
+    background-color: $colorBoton
+    display: block
+    text-align: center
+    font-size: 0.8rem
+
+.contenedor
+    display: flex
+    flex-direction: column
+    
+@media ( min-width: 1440px )
+
+    .contenedor
+        flex-direction: row
+    .contenedor-principal
+        margin: 200px
+        width: 50%
+    .box-bottom, .box-top, .box-middle
+        padding: 30px
+    .box-bottom        
+        border-bottom-left-radius: 0px
+        li
+            font-size: 0.9rem
+    .box-top
+        p
+            font-size: 1rem
+    .box-middle
+        border-bottom-left-radius: 5px
+    
+        
+
+    
