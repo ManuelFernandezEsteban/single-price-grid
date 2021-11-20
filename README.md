@@ -14,8 +14,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -47,8 +45,6 @@ Primero realice la estructura html del componente y despues me centre en el dise
 - Mobile-first workflow
 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 Me ha servido para repasar flexbox, media querys y sass
@@ -59,6 +55,6 @@ Me ha servido para repasar flexbox, media querys y sass
 - Frontend Mentor - [@ManuelFernandezEsteban](https://www.frontendmentor.io/profile/ManuelFernandezEsteban)
 - Twitter - [@ManuelF19576678](https://www.twitter.com/ManuelF19576678)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 
