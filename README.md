@@ -32,7 +32,7 @@ screenshot-mobile.png
 
 ### Links
 
-- Solution URL: [ManuelFernandezEsteban/single-price-grid](https://your-solution-url.com)
+- Solution repository: [ManuelFernandezEsteban/single-price-grid]
 
 
 ## My process
